@@ -1,21 +1,101 @@
-body 	{
+body
+{
+	background-color:beige;
+	font-size:15px;
+}
+
+.firstletter{
+	font-size:25px;
+	color:red;
 	
-	     color: black;
-	     background-color: white;
-	     font-size: 18pt;
-	     font-family: Veranda; Geneva, Arial, Helvetica, sans-serif;  
-		 text-align: center;
-		 margin-top: 30px;
-		 margin-bottom: 100px;
-		 margin-right:50px;
-		 margin-left:50px;
-		 padding-top:20px;
+}
+
+	.menubar
+	{
+		border:1px solid pink;
+		width: auto;
+		text-align:left;
+		font-size:20px;
+		
+		padding: 15px;
+		margin-bottom:10px;		
 	}
+	
+	
+	.header{
+		border:2px solid gray;
+		width:auto;
+		background-color: lightgray;
+		font-size: 40pt;
+		text-align:center;
+		font-color:white;
 		
-div 	{  background-color:white; }
+		padding:50px;
+	}
+	
+	
+	.pic1{
+		float:left;
+		border-radius:2px solid black;
+		font-size: 40pt;
+		font-color:white;
+		padding:50px;
+			
+	}
+	 
+     .pic2{
+ 		width:auto;
+ 		border:2px solid gray;
+ 		font-size: 40pt;
+ 		font-color:white;
+		text-align:center;
 		
-p 	{  color: black; font-size: 12pt; }
+     }	
+
+	
+	.a{
+		border:2px solid gray;
+		width:20%;
+		background-color: lightgray;
+		font-size: 20pt;
+		text-align:left;
+		font-color:white;
+		font-style:italic;	
+	}
+	
+	
+	.wrap{
+		margin: 0 auto;
+		width:70%;
 		
-h1 	{  font-style:italic; font-weight:bold; }
+	}
+/* left justify on a centered div */	
+	.resume{
+		text-align: left;
+		
+	}
+	 
+	.contact{
+		border:2px solid black;
+		background-color:grey;
+		text-align:center;
+		font-weight:bold;
+		float:center;
+		width:auto;
+		
+	}
+	
+	.description{
+		color:grey;
+		font-size:16pt;
+		font-style:italic;
+		text-align:center;
+	}
+	
+p 	{  color: black; font-size: 15pt;}
+		
+h4 	{ font-style:italic; font-weight:bold; }
+
+h5   {font-style:italic; font-weight:bold; text-align:center;}
 
 
